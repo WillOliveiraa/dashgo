@@ -43,7 +43,6 @@ export default function UserList() {
 
             <Link href="/users/create" passHref>
               <Button
-                as="a"
                 size="sm"
                 fontSize="sm"
                 colorScheme="pink"
@@ -81,7 +80,6 @@ export default function UserList() {
                 {isWideVersion && <Td>08 de Março, 2023</Td>}
                 <Td>
                   <Button
-                    as="a"
                     size="sm"
                     fontSize="sm"
                     colorScheme="purple"
